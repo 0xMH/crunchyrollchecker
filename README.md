@@ -1,5 +1,6 @@
 # **CrunchyrollChecker**
 A simple Python script that checks a list of Crunchyroll accounts for working/premium ones.
+
 It's multithreaded and uses a Cloudflare bypass on each thread so there's no interruption.
 
 ---
@@ -32,6 +33,7 @@ It will start running and will save all working accounts on the **justworking.tx
 ---
 ###**Pre-packaged Executable**
 CrunchyrollChecker is also avaliable as a pre-packaged self extracting executable, so you don't need to install Python or any one of the dependencies.
+
 Download the latest executable version here: [click here to download](http://files.joaovitorbf.net/CrunchyrollChecker.exe)
 >**Warning: place the executable on a empty folder, it will unpackage everything automatically once you run it, throwing files everywhere.**
 
