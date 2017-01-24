@@ -31,11 +31,10 @@ It will start running and will save all working accounts on the **justworking.tx
 	pip install beautifulsoup4
 
 ---
-###**Pre-packaged Executable**
-CrunchyrollChecker is also avaliable as a pre-packaged self extracting executable, so you don't need to install Python or any one of the dependencies.
+###**Windows Executable**
+CrunchyrollChecker is also avaliable as a Windows executable, so you don't need to install Python or any one of the dependencies.
 
-Download the latest executable version here: [click here to download](http://files.joaovitorbf.net/CrunchyrollChecker.exe)
->**Warning: place the executable on a empty folder, it will unpackage everything automatically once you run it, throwing files everywhere.**
+Download the latest executable version here: **[click here to download](http://files.joaovitorbf.net/CrunchyrollChecker.exe)**
 
 ---
 ###**License**
