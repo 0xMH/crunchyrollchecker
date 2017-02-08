@@ -38,7 +38,7 @@ Download the latest executable version here: **[click here to download](https://
 
 ---
 ###**License**
-The software is licensed under the MIT License.
+This software is licensed under the MIT License.
 You can also find it inside the license file.
 
     Copyright 2017 João Vitor B. F.
