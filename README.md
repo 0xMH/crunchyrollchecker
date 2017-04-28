@@ -4,7 +4,7 @@ A simple Python script that checks a list of Crunchyroll accounts for working/pr
 It's multithreaded and uses a Cloudflare bypass on each thread so there's no interruption.
 
 ---
-###**Account list example**
+### **Account list example**
 
 	account1@email.com:password1
 	account2@email.com:password2
@@ -12,13 +12,13 @@ It's multithreaded and uses a Cloudflare bypass on each thread so there's no int
 	...
 	
 ---
-###**Usage**
+### **Usage**
 	crunchyrollchecker.py [accountlistfile] [numberofthreads]
 
 It will start running and will save all working accounts on the **justworking.txt** file and premium accounts on the **workingandpremium.txt** file.
 
 ---
-###**Dependencies**
+### **Dependencies**
 	Tested and working on Python 3.5.2
 	
 	Requests:
@@ -31,13 +31,13 @@ It will start running and will save all working accounts on the **justworking.tx
 	pip install beautifulsoup4
 
 ---
-###**Windows Executable**
+### **Windows Executable**
 CrunchyrollChecker is also avaliable as a Windows executable, so you don't need to install Python or any one of the dependencies.
 
 Download the latest executable version here: **[click here to download](https://github.com/joaovitorbf/crunchyrollchecker/releases)**
 
 ---
-###**License**
+### **License**
 This software is licensed under the MIT License.
 You can also find it inside the license file.
 
