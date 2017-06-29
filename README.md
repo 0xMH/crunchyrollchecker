@@ -1,6 +1,10 @@
-# **CrunchyrollChecker**
-A simple Python script that checks a list of Crunchyroll accounts for working/premium ones.
+# CURRENTLY NOT WORKING
 
+This project isn't active at the moment, I'm really busy with other things.  
+I will try to rebuild this project from scratch as soon as I have time to do that.
+
+# **CrunchyrollChecker**
+A simple Python script that checks a list of Crunchyroll accounts for working/premium ones.  
 It's multithreaded and uses a Cloudflare bypass on each thread so there's no interruption.
 
 ---
