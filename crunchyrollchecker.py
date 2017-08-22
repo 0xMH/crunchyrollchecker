@@ -102,7 +102,7 @@ if __name__ == "__main__":
 
     argparser = argparse.ArgumentParser(description="Crunchyroll Account List Checker made by JoaoVitorBF.",
                                         usage="%(prog)s input_file",
-                                        epilog="Version: 1.0")
+                                        epilog="Version: 1.5")
     argparser.add_argument("inputfile",
                            metavar="input_file",
                            help="inputs a combo list text file to be used.")
