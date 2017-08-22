@@ -1,6 +1,6 @@
 # WORKING
 
-This project back to  active state at the moment, [MoHD20][1] will continue developing it.
+This project back to  active state at the moment, I [MoHD20][1] could continue developing it.
 
 # **CrunchyrollChecker**
 A simple Python script that checks a list of Crunchyroll accounts for working/premium ones.  
