@@ -1,7 +1,6 @@
-# CURRENTLY NOT WORKING
+# WORKING
 
-This project isn't active at the moment, I'm really busy with other things.  
-I will try to rebuild this project from scratch as soon as I have time to do that.
+This project back to  active state at the moment, [MoHD20][1] will continue developing it.
 
 # **CrunchyrollChecker**
 A simple Python script that checks a list of Crunchyroll accounts for working/premium ones.  
@@ -34,6 +33,9 @@ It will start running and will save all working accounts on the **justworking.tx
 	BeautifulSoup:
 	pip install beautifulsoup4
 
+	* **Node.js** is required for (safe) Javascript execution.
+    * Your computer or server may already have it (check with `node -v`). If not, you can install it with `apt-get install nodejs` on Ubuntu and Debian. Otherwise, please read [Node's installation instructions](https://nodejs.org/en/download/package-manager/).
+
 ---
 ### **Windows Executable**
 CrunchyrollChecker is also avaliable as a Windows executable, so you don't need to install Python or any one of the dependencies.
@@ -59,3 +61,5 @@ You can also find it inside the license file.
 	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION 
 	WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[1]: https://github.com/MoHD20
