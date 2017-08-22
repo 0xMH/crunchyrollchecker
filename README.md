@@ -33,8 +33,8 @@ It will start running and will save all working accounts on the **justworking.tx
 	BeautifulSoup:
 	pip install beautifulsoup4
 
-	* **Node.js** is required for (safe) Javascript execution.
-    * Your computer or server may already have it (check with `node -v`). If not, you can install it with `apt-get install nodejs` on Ubuntu and Debian. Otherwise, please read [Node's installation instructions](https://nodejs.org/en/download/package-manager/).
+* **Node.js** is required for (safe) Javascript execution.
+	* Your computer or server may already have it (check with `node -v`). If not, you can install it with `apt-get install nodejs` on Ubuntu and Debian. Otherwise, please read [Node's installation instructions](https://nodejs.org/en/download/package-manager/).
 
 ---
 ### **Windows Executable**
